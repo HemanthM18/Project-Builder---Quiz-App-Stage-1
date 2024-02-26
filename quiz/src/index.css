@@ -1,0 +1,136 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #473A8D;
+  text-align: center;
+}
+/* -----------home.jsx----------- */
+.container{
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.quiz{
+  font-size: 30px;
+  color: white;
+}
+.play{
+  width: 13vw;
+  height: 5vh;
+  border-radius: 25px;
+  font-size: 17px;
+  background-color: #0AB306;
+  color: white;
+  box-shadow: 1px 1px 1px 1px black;
+}
+.start{
+  margin-top: 10vh;
+  justify-content: space-evenly;
+  padding: 10vh 0 70vh 0;
+}
+
+/* -------quiz.jsx-------- */
+.contents{
+  width: 80vw;
+  height: 80vh;
+  background-color: white;
+  border-left: solid 5px #8686F3;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.numbers{
+  width: 100%;
+  margin-left: 25px;
+  text-align: left;
+}
+.questions{
+  font-size: 20px;
+  font-weight: 600;
+}
+.options{
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+.opt{
+  width: 35vw;
+  height: 6vh;
+  background-color: #1EA1F1;
+  border-radius: 30px;
+  border: none;
+  color: white;
+  font-size: 17px;
+}
+.button{
+  width: 30vw;
+  display: flex;
+  justify-content: space-evenly ;
+}
+.button button{
+  height: 4vh;
+  font-weight: 600;
+  padding:0px 20px;
+  border: none;
+}
+.previous{
+  background-color: #3E7EAA;
+}
+.next{
+  background-color: #008001;
+}
+.quit{
+  background-color: #FF0000;
+}
+/* -----------result.jsx---------- */
+.result{
+  color: #0AB306;
+  font-size: 45px;
+}
+.description{
+  background-color: white;
+  border-left: solid 6px #8686F3;
+  width: 40vw;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.score{
+  color: #1165e4;
+}
+.content{
+  display: flex;
+  height: 20vh;
+  padding: 0px 20px;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.point{
+  display: flex;
+  justify-content: space-between;
+}
+.buttons{
+  width: 20vw;
+  display: flex;
+  justify-content: space-evenly;
+}
+.buttons button{
+  padding: 3px 15px;
+}
+#btn-play{
+  border: solid 3px #1165e4;
+  color: #1165e4;
+}
+#btn-back{
+  border: solid 3px #0AB306;
+  color: #0AB306;
+}
+
+
