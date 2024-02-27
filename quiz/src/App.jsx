@@ -1,8 +1,8 @@
 import React from 'react';
 import './App.css';
-import Home from './components/home';
-import Quiz from './components/quiz';
-import Result from './components/result';
+import Home from './components/HomeComponent';
+import Quiz from './components/QuizComponent';
+import Result from './components/ResultComponent';
 
 function App() {
   return (
