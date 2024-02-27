@@ -7,7 +7,7 @@ body{
   background-color: #473A8D;
   text-align: center;
 }
-/* -----------home.jsx----------- */
+/* -----------home----------- */
 .container{
   display: flex;
   height: 100vh;
@@ -34,7 +34,7 @@ body{
   padding: 10vh 0 70vh 0;
 }
 
-/* -------quiz.jsx-------- */
+/* -------quiz-------- */
 .contents{
   width: 80vw;
   height: 80vh;
@@ -88,7 +88,7 @@ body{
 .quit{
   background-color: #FF0000;
 }
-/* -----------result.jsx---------- */
+/* -----------result---------- */
 .result{
   color: #0AB306;
   font-size: 45px;
